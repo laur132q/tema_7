@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 5px;
+}
+article {
+  border-style: solid;
+}
+
+@media screen and (min-width: 768px) {
+  main {
+  }
+
+  article {
+  }
+}
