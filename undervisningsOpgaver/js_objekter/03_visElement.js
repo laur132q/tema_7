@@ -13,7 +13,7 @@ function start() {
   );
 
   //   Her har vi lavet en samlet beskrivelse, vi bruger både tekst som skal skrives udenfor dollartegnet
-  const fuldBeskrivelse = `dyr: ${dyr.navn}/ type: ${dyr.type}/ levedsted: ${dyr.levested}`;
+  // const fuldBeskrivelse = `dyr: ${dyr.navn}/ type: ${dyr.type}/ levedsted: ${dyr.levested}`;
 
   //   Vi har defineret en destination ved at tage fat i et tomt html tag.
   const destination = document.querySelector("#dyrBeskrivelse");

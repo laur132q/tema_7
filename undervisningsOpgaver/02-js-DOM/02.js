@@ -11,8 +11,8 @@
 const headliners = document.querySelectorAll("h1:nth-child(1)");
 console.log(headliners);
 
-// den referer til det første barn i hver sektion, i parentesen styår hvilket barn der henvises til.
-// Dvs at hvis der er 2 h1'er i en sektion tager den kun den første. i det her tilfælde.
+//&den referer til det første barn i hver sektion, i parentesen står hvilket barn der henvises til.
+//&Dvs at hvis der er 2 h1'er i en sektion tager den kun den første. i det her tilfælde.
 
 let article1 = document.querySelector("#article1");
 let article2 = document.querySelector("#article2");

@@ -1,3 +1,5 @@
+
+// & Det her er et ur
 function currentTime() {
   let date = new Date();
   let hh = date.getHours();
@@ -15,20 +17,27 @@ function currentTime() {
     currentTime();
   }, 1000);
 }
-
 currentTime();
 
 
-let greeting;
-function tid() {
-    console.log("tid");
-    if (time = 5, 0, 0 && time <= 10, 0, 0); {
-        greeting = "God morgen";
-    } else if (time = 10, 0, 0 && time < 18, 0, 0) {
-        greeting = "Goddag"; 
-    } else if (time = 18, 0, 0 && time < 24, 0, 0) {
-         greeting = "Godaften"; 
-    } else (time = 24, 0, 0 && time 5, 0, 0) {
-        greeting = "Godnat"; 
-    }
+// & det her er løsningen på opgaven
+let time = new Date().getHours();
+
+//Godnat mellem 24 og 5.
+if (time < 5) {
+  console.log("godnat");
 }
+
+//Godmorgen mellem kl. 5 og kl 10,
+else if (time < 10) {
+  console.log("godmorgen");
+}
+//Goddag mellem kl 10 og 18,
+else if (time < 18) {
+  console.log("goddag");
+}
+//Godaften mellem 18 og 24 og
+else {
+  console.log("godaften");
+}
+
